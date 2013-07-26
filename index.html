@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="code.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="init()">
+<div class="container">
+		<h2> The effects of changing a in a parabola y² = 4<b>a</b>x</h2>  
+		<div>
+			<p style="align:left;"> Use the slider to change the value of <b>a</b></p>
+			<p style="align:right;"> The circle is the <b style="color:red">focus</b></p>
+			<p style="align:right;"> The line is the <b style="color:green">directrix</b></p>
+		</div>
+		<input type="range" id="a_slider" min="1" max="600" value = 5>
+
+    <div class="rightAlign">
+    	<canvas width="1200px" height="500px" id="root" class="center" style="border-radius:0px"></canvas>
+	</div>
+
+</div>
+</body>
+</html>

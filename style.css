@@ -1,0 +1,64 @@
+div.container{
+	margin-top: 0px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 1250px;
+	height:900px;
+	border : 5px;
+	border-color: green;
+}
+
+div.rightAlign{
+	float:right;
+	background: white;
+	text-align: center;
+	box-shadow: inset 0px 0px 10px 0.1px #000111;
+	border-radius: 10px;
+	border:0px solid;
+}
+
+div.leftAlign{
+	float:left;
+	background: white;
+	height:520px;
+	width:320px;
+
+	box-shadow: inset 0px 0px 10px 0.1px #000111;
+	border-radius: 10px;
+	border:0px solid;
+
+	text-align: center;
+	/*padding-top: 50px;*/
+	overflow: hidden;
+}
+
+h1,h2{
+	text-align: center;
+	/*text-shadow: inset 1px 1px 2px #000000;*/
+	color:black;
+}
+
+canvas.center{
+
+}
+
+div.upperHeader{
+	width:340px;
+	height:75px;
+	box-shadow: inset 0px 0px 10px 0.1px #000111;
+	margin-bottom: 25px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+}
+
+div.header{
+	background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+	margin-top: 0px;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 1);
+}
+
+body{
+	margin: 0px;
+}
